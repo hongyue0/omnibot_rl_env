@@ -20,5 +20,3 @@ if __name__ == "__main__":
     print(f"--- 状态检查 ---")
     print(f"电机 A 角度: {motor_a.angle}") # 应该是 90
     print(f"电机 B 角度: {motor_b.angle}") # 应该是 0 (不受 A 影响)
-
-    
