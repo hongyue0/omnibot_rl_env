@@ -15,13 +15,13 @@ def apply_safety_limit(input_angle):
 
 # --- 以下是调用函数的演示 ---
 print("测试 1：")
-final_angle_1 = apply_safe_limit(200.5)
+final_angle_1 = apply_safety_limit(200.5)
 print(f"结果：", final_angle_1)
 
 print("测试 2：")
-final_angle_2 = apply_safe_limit(-10.5)
+final_angle_2 = apply_safety_limit(-10.5)
 print(f"结果：", final_angle_2)
 
 print("测试 3：")
-final_angle_3 = apply_safe_limit(45)
+final_angle_3 = apply_safety_limit(45)
 print(f"结果：", final_angle_3)
