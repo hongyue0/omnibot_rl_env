@@ -40,7 +40,7 @@ class ControllerNode(Node):
         # math.sin() 生成 -1 到 1 的波浪，乘以 180 放大到 -180度 到 180度
         # 注意：这里故意放大到 180 度，就是为了触发你硬件端 [-170, 170] 的物理死区报警！
         msg.position = [
-            math.sin(t) * 180.0,           
+            math.sin(t + 0.0) * 180.0,           
             math.sin(t + 0.5) * 180.0,     
             math.sin(t + 1.0) * 180.0,     
             math.sin(t + 1.5) * 180.0,
