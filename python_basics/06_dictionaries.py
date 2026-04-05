@@ -15,7 +15,7 @@ print(f"\n查询到电机 {motor_config['name']} 的当前温度是: {current_te
 
 # 3. 修改字典里的值
 # 假设电机运转了一会，温度升高了
-motor_config["temperature"] = 42.0
+motor_config["temperature"] = 39.0
 print("更新后的温度:", motor_config["temperature"])
 
 # 4. 动态增加新的标签
